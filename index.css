@@ -88,7 +88,7 @@ p {
         font-size: x-small;
         flex-direction: column;
     }  
-    div.catStyling{
+    div.catStyling-container{
         flex-direction: column;     
     } 
 }
