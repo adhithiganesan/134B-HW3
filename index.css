@@ -82,23 +82,27 @@ p {
     max-width: 50%;
     margin: 100 100px; 
 }
-/* Phone Screen */
+/* Phone Screen: Small */
 @media screen and (max-width: 640px){
     nav{
         font-size: x-small;
         flex-direction: column;
-    }
-    
+    }  
+    div.catStyling{
+        flex-direction: column;     
+    } 
 }
-/* Tablet */
+/* Tablet: Medium */
 @media screen and (max-width: 640px){
     nav{
+        flex-direction: column;
 
     }
 }
-/* Desktop */
-@media screen and (max-width: 640px){
+/* Desktop: Large */
+@media screen and (mi-width: 640px){
     nav{
+
 
     }
 }
