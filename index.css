@@ -82,3 +82,23 @@ p {
     max-width: 50%;
     margin: 100 100px; 
 }
+/* Phone Screen */
+@media screen and (max-width: 640px){
+    nav{
+        font-size: x-small;
+        flex-direction: column;
+    }
+    
+}
+/* Tablet */
+@media screen and (max-width: 640px){
+    nav{
+
+    }
+}
+/* Desktop */
+@media screen and (max-width: 640px){
+    nav{
+
+    }
+}
