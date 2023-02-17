@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
 a:hover{font-weight:bold;}
 
 nav{
@@ -5,15 +8,20 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding: 20 px;
-    background-color: grey;
-    color: #FFF;  
-    font-family: 'Courier New';
+    background-color: lightpink;
+    color: black;  
+    font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     font-size: 20px;
     text-align: left;
+    
 }
+nav:visited{
+    color: black;
+}
+
 .links a{
-    color: white;
+    color: black;
 }
 .options{
     display: flex;
@@ -31,7 +39,7 @@ nav{
 
 h1 {
     color:black;
-    font-family: 'Courier New', "Times New Roman", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 320%;
     text-align: center;
 }
@@ -41,7 +49,7 @@ body {
 }
 p {
     color: black;
-    font-family: "Courier New", "Times New Roman", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 150%;
 
 }
@@ -49,14 +57,14 @@ p {
     border: 5px outset grey;
     background-color: white;
     text-align: center;
-    font-family: 'Courier New', "Times New Roman", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 120%;
 }
 .divRules2 {
     border: 5px outset grey;
     background-color: white;
     text-align: left;
-    font-family: 'Courier New', "Times New Roman", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 100%;
 }
 .center {
@@ -76,7 +84,6 @@ p {
 }
 .catStyling-container {
     display: flex;
-    width: 1500px; 
 }
 .catStyling{
     max-width: 50%;
@@ -96,13 +103,6 @@ p {
 @media screen and (max-width: 640px){
     nav{
         flex-direction: column;
-
-    }
-}
-/* Desktop: Large */
-@media screen and (mi-width: 640px){
-    nav{
-
 
     }
 }
