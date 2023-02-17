@@ -7,7 +7,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20 px;
+    padding: 20px;
     background-color: lightpink;
     color: black;  
     font-family: 'Roboto Mono', monospace;
@@ -87,7 +87,7 @@ p {
 }
 .catStyling{
     max-width: 50%;
-    margin: 100 100px; 
+    margin: 100px; 
 }
 /* Phone Screen: Small */
 @media screen and (max-width: 640px){
